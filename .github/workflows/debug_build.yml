@@ -2,10 +2,10 @@ name: Build
 
 on:
   workflow_dispatch:
-  # push:
-  #   branches:
+  push:
+    branches:
   #     - master
-  #     - 'github-releases/**'
+      - 'github-releases/**'
   # pull_request:
   #   branches:
   #     - master
